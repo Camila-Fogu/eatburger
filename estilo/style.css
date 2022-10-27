@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ruda", sans-serif;
+}
+
+header {
+  background-color: #de4309;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  text-align: center;
+}
+
+.header__img {
+  width: 4rem;
+  margin-top: 0.5rem;
+}
+
+.nav__item {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 150%;
+}
+
+main {
+  text-align: center;
+  margin-top: 1%;
+}
+
+h1 {
+  font-size: 250%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+  color: #de4309;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 1%;
+}
+
+/*ESTILOS INDEX (pasar img a svg!!!) */
+.imgIndex {
+  width: 45%;
+}
+
+/* ESTILOS DE MENU*/
+.imgMenu {
+  width: 25%;
+}
+
+/*ESTILO PEDIDOS*/
+.pedidos {
+  padding-inline: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.ancho {
+  flex: 1;
+}
+
+.divMargin {
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.inputDatos {
+  width: 250px;
+}
+
+.inputSize {
+  width: 50px;
+}
+
+/*ESTILOS LOCALES*/
+.locales {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 1rem;
+  background-color: #de4309;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 20px -10px black;
+  color: whitesmoke;
+}
+
+.card__title {
+  color: #fcdd05;
+}
+
+.mapa {
+  width: 80%;
+  height: 300px;
+}
+
+/*ESTILO CONTACTO*/
+.contacto {
+  padding-inline: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgContacto {
+  width: 50%;
+}
+
+label {
+  font-size: 18px;
+  margin: 1.5rem;
+}
+
+.inputBoton {
+  background-color: #de4309;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 0.2rem;
+  box-shadow: 0 5px 20px -10px black;
+}
+
+/*ESTILO FOOTER*/
+footer {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #de4309;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.redes {
+  text-decoration: none;
+  color: whitesmoke;
+}

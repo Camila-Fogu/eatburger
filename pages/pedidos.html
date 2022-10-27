@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="pictures/logo2.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ruda&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../estilo/style.css" />
+    <title>EAT!</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="nav__item">
+            <a href="../index.html">
+              <img src="../pictures/logo3.svg" alt="HOME" class="header__img" />
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="menu.html" class="link">MENÚ</a>
+          </li>
+          <li class="nav__item">
+            <a href="pedidos.html" class="link">HACÉ TU PEDIDO</a>
+          </li>
+          <li class="nav__item">
+            <a href="locales.html" class="link">LOCALES</a>
+          </li>
+          <li class="nav__item">
+            <a href="contacto.html" class="link">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1>HACÉ TU PEDIDO</h1>
+      </div>
+      <section>
+        <!-- PRODUCTOS -->
+        <form action="">
+          <div class="pedidos">
+            <div class="ancho">
+              <h2>1. Selecciona tus EAT preferidas</h2>
+              <div class="divMargin">
+                <label for="sencilla">EAT Sencilla</label>
+                <input
+                  type="number"
+                  name="sencilla"
+                  id="sencilla"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="inputSize"
+                />
+              </div>
+              <div class="divMargin">
+                <label for="doble">EAT Doble</label>
+                <input
+                  type="number"
+                  name="doble"
+                  id="doble"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="inputSize"
+                />
+              </div>
+              <div class="divMargin">
+                <label for="arg">EAT Argentina</label>
+                <input
+                  type="number"
+                  name="arg"
+                  id="arg"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="inputSize"
+                />
+              </div>
+              <div class="divMargin">
+                <label for="bbq">EAT BBQ</label>
+                <input
+                  type="number"
+                  name="bbq"
+                  id="bbq"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="inputSize"
+                />
+              </div>
+              <div class="divMargin">
+                <label for="cheddar">EAT Cheddar</label>
+                <input
+                  type="number"
+                  name="cheddar"
+                  id="cheddar"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="inputSize"
+                />
+              </div>
+              <div class="divMargin">
+                <label for="mex">EAT Mexicana</label>
+                <input
+                  type="number"
+                  name="mex"
+                  id="mex"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="inputSize"
+                />
+              </div>
+              <div class="divMargin">
+                <label for="veggie">EAT Veggie</label>
+                <input
+                  type="number"
+                  name="veggie"
+                  id="veggie"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="inputSize"
+                />
+              </div>
+              <div class="divMargin">
+                <label for="papas">Papas EAT</label>
+                <input
+                  type="number"
+                  name="papas"
+                  id="papas"
+                  min="0"
+                  max="10"
+                  step="1"
+                  class="inputSize"
+                />
+              </div>
+            </div>
+            <!-- ENVIO -->
+            <div class="ancho">
+              <h2 id="domicilio">2. Datos de envío</h2>
+              <div class="divMargin">
+                <label for="nombre">Nombre</label>
+                <input
+                  type="text"
+                  name="nombre"
+                  id="nombre"
+                  class="inputDatos"
+                />
+              </div>
+              <div class="divMargin">
+                <label for="tel">Teléfono</label>
+                <input type="number" name="tel" id="tel" class="inputDatos" />
+              </div>
+              <div class="divMargin">
+                <label for="dom">Domicilio</label>
+                <input type="text" name="dom" id="dom" class="inputDatos" />
+              </div>
+              <div class="divMargin">
+                <label for="numerodom">Número</label>
+                <input
+                  type="text"
+                  name="numerodom"
+                  id="numerodom"
+                  class="inputSize"
+                />
+                <label for="piso">Piso</label>
+                <input type="text" name="piso" id="piso" class="inputSize" />
+                <label for="depto">Departamento</label>
+                <input type="text" name="depto" id="depto" class="inputSize" />
+              </div>
+              <input type="reset" value="Borrar" class="inputBoton" />
+              <input type="submit" value="Enviar" class="inputBoton" />
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div>
+        Sumate! Envianos tu cv a rrhh@eatburger.com y formá parte de nuestro
+        staff
+      </div>
+      <div>
+        Seguinos en redes
+        <a href="#" class="redes" target="_blank">
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="#" class="redes" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" class="redes" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
