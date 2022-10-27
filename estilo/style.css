@@ -68,17 +68,26 @@ h2 {
   flex-wrap: wrap;
 }
 
-.ancho {
-  flex: 1;
+.contenedor1 {
+  width: 350px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-areas: "titulo titulo";
 }
 
-.divMargin {
-  margin-bottom: 6px;
-  width: 100%;
+.contenedor2 {
+  width: 400px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-areas: "titulo titulo";
 }
 
-.inputDatos {
-  width: 250px;
+.pedidos__titulo {
+  grid-area: titulo;
 }
 
 .inputSize {

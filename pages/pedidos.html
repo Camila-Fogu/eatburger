@@ -48,13 +48,16 @@
         <h1>HACÉ TU PEDIDO</h1>
       </div>
       <section>
-        <!-- PRODUCTOS -->
         <form action="">
           <div class="pedidos">
-            <div class="ancho">
-              <h2>1. Selecciona tus EAT preferidas</h2>
-              <div class="divMargin">
+            <div class="contenedor1">
+              <div class="pedidos__titulo">
+                <h2>1. Selecciona tus EAT preferidas</h2>
+              </div>
+              <div>
                 <label for="sencilla">EAT Sencilla</label>
+              </div>
+              <div>
                 <input
                   type="number"
                   name="sencilla"
@@ -65,8 +68,8 @@
                   class="inputSize"
                 />
               </div>
-              <div class="divMargin">
-                <label for="doble">EAT Doble</label>
+              <div><label for="doble">EAT Doble</label></div>
+              <div>
                 <input
                   type="number"
                   name="doble"
@@ -77,8 +80,8 @@
                   class="inputSize"
                 />
               </div>
-              <div class="divMargin">
-                <label for="arg">EAT Argentina</label>
+              <div><label for="arg">EAT Argentina</label></div>
+              <div>
                 <input
                   type="number"
                   name="arg"
@@ -89,8 +92,8 @@
                   class="inputSize"
                 />
               </div>
-              <div class="divMargin">
-                <label for="bbq">EAT BBQ</label>
+              <div><label for="bbq">EAT BBQ</label></div>
+              <div>
                 <input
                   type="number"
                   name="bbq"
@@ -101,8 +104,8 @@
                   class="inputSize"
                 />
               </div>
-              <div class="divMargin">
-                <label for="cheddar">EAT Cheddar</label>
+              <div><label for="cheddar">EAT Cheddar</label></div>
+              <div>
                 <input
                   type="number"
                   name="cheddar"
@@ -113,8 +116,8 @@
                   class="inputSize"
                 />
               </div>
-              <div class="divMargin">
-                <label for="mex">EAT Mexicana</label>
+              <div><label for="mex">EAT Mexicana</label></div>
+              <div>
                 <input
                   type="number"
                   name="mex"
@@ -125,8 +128,8 @@
                   class="inputSize"
                 />
               </div>
-              <div class="divMargin">
-                <label for="veggie">EAT Veggie</label>
+              <div><label for="veggie">EAT Veggie</label></div>
+              <div>
                 <input
                   type="number"
                   name="veggie"
@@ -137,8 +140,8 @@
                   class="inputSize"
                 />
               </div>
-              <div class="divMargin">
-                <label for="papas">Papas EAT</label>
+              <div><label for="papas">Papas EAT</label></div>
+              <div>
                 <input
                   type="number"
                   name="papas"
@@ -150,43 +153,47 @@
                 />
               </div>
             </div>
-            <!-- ENVIO -->
-            <div class="ancho">
-              <h2 id="domicilio">2. Datos de envío</h2>
-              <div class="divMargin">
+            <div class="contenedor2">
+              <div class="pedidos__titulo">
+                <h2>2. Datos de envío</h2>
+              </div>
+              <div>
                 <label for="nombre">Nombre</label>
-                <input
-                  type="text"
-                  name="nombre"
-                  id="nombre"
-                  class="inputDatos"
-                />
               </div>
-              <div class="divMargin">
-                <label for="tel">Teléfono</label>
-                <input type="number" name="tel" id="tel" class="inputDatos" />
+              <div>
+                <input type="text" name="nombre" id="nombre" />
               </div>
-              <div class="divMargin">
-                <label for="dom">Domicilio</label>
-                <input type="text" name="dom" id="dom" class="inputDatos" />
+              <div><label for="tel">Teléfono</label></div>
+              <div>
+                <input type="number" name="tel" id="tel" />
               </div>
-              <div class="divMargin">
-                <label for="numerodom">Número</label>
+              <div><label for="dom">Domicilio</label></div>
+              <div>
+                <input type="text" name="dom" id="dom" />
+              </div>
+              <div><label for="numerodom">Número</label></div>
+              <div>
                 <input
                   type="text"
                   name="numerodom"
                   id="numerodom"
                   class="inputSize"
                 />
-                <label for="piso">Piso</label>
+              </div>
+              <div><label for="piso">Piso</label></div>
+              <div>
                 <input type="text" name="piso" id="piso" class="inputSize" />
-                <label for="depto">Departamento</label>
+              </div>
+              <div><label for="depto">Departamento</label></div>
+              <div>
                 <input type="text" name="depto" id="depto" class="inputSize" />
               </div>
-              <input type="reset" value="Borrar" class="inputBoton" />
-              <input type="submit" value="Enviar" class="inputBoton" />
             </div>
           </div>
+
+          <input type="reset" value="Borrar" class="inputBoton" />
+
+          <input type="submit" value="Enviar" class="inputBoton" />
         </form>
       </section>
     </main>
