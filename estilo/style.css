@@ -5,6 +5,7 @@
 }
 
 body {
+  height: 100vh;
   font-family: "Ruda", sans-serif;
 }
 
@@ -43,6 +44,16 @@ h1 {
   margin-bottom: 1%;
   margin-top: 2%;
   color: #de4309;
+  animation: titulos 2s linear;
+}
+
+@keyframes titulos {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: initial;
+  }
 }
 
 h2 {
