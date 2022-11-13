@@ -4,9 +4,18 @@
   box-sizing: border-box;
 }
 
+/*@keyframes titulos {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: initial;
+  }
+}*/
+
 body {
-  height: 100vh;
   font-family: "Ruda", sans-serif;
+  text-align: center;
 }
 
 header {
@@ -14,7 +23,6 @@ header {
   position: sticky;
   top: 0;
   z-index: 2;
-  text-align: center;
 }
 
 .header__img {
@@ -34,26 +42,17 @@ header {
   font-size: 150%;
 }
 
-main {
-  text-align: center;
-  margin-top: 1%;
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
 }
 
 h1 {
-  font-size: 250%;
-  margin-bottom: 1%;
-  margin-top: 2%;
+  font-size: 2.5rem;
+  margin-top: 1rem;
   color: #de4309;
   animation: titulos 2s linear;
-}
-
-@keyframes titulos {
-  0% {
-    transform: scale(0, 0);
-  }
-  100% {
-    transform: initial;
-  }
 }
 
 h2 {
@@ -62,8 +61,15 @@ h2 {
 }
 
 /*ESTILOS INDEX (pasar img a svg!!!) */
+.index__grilla {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+}
+
 .imgIndex {
-  width: 45%;
+  max-width: 500px;
+  width: 100%;
 }
 
 /* ESTILOS DE MENU*/
