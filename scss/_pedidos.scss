@@ -16,6 +16,7 @@
 .contenedor1 {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: repeat(9, 0.7fr);
+  row-gap: 0.5rem;
 }
 .contenedor2 {
   grid-template-columns: 1fr 1fr;
