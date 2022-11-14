@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  background-image: url("../pictures/fondo1.svg");
+  padding-top: 5rem;
+}
+
+header {
+  nav {
+    background-color: $color__principal;
+    box-shadow: $sombra;
+    margin-bottom: 1.5rem;
+    img {
+      width: 3.3rem;
+    }
+
+    li {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 1rem;
+  color: $color__principal;
+  font-family: "Kalam", cursive;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.inputBoton {
+  background-color: $color__principal;
+  border: none;
+  color: $color__white;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  box-shadow: $sombra;
+}
+
+footer {
+  background-color: $color__principal;
+  color: $color__white;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  span {
+    font-weight: 400;
+  }
+  .redes {
+    text-decoration: none;
+    color: $color__white;
+    margin: 0rem 0.3rem;
+  }
+}
+
+@media (min-width: 700px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.3rem;
+  }
+}

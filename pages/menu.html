@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="pictures/logo2.png" />
+    <meta
+      name="keywords"
+      content="hamburguesas negocio comida papas burger comprar delivery variedad"
+    />
+    <meta
+      name="description"
+      content="Las hamburguesas más ricas las encontras en EAT Burger."
+    />
+    <link rel="shortcut icon" href="../pictures/logo2.svg" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -12,69 +20,91 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- BOOTSTRAP -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Ruda&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="../estilo/style.css" />
-    <title>EAT!</title>
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>EAT Burger | Menú</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li class="nav__item">
-            <a href="../index.html">
-              <img src="../pictures/logo3.svg" alt="HOME" class="header__img" />
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="menu.html" class="link">MENÚ</a>
-          </li>
-          <li class="nav__item">
-            <a href="pedidos.html" class="link">HACÉ TU PEDIDO</a>
-          </li>
-          <li class="nav__item">
-            <a href="locales.html" class="link">LOCALES</a>
-          </li>
-          <li class="nav__item">
-            <a href="contacto.html" class="link">CONTACTO</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../pictures/logo3.svg" alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="menu.html">MENÚ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="pedidos.html"
+                  >HACÉ TU PEDIDO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="locales.html">LOCALES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <main>
-      <h1>NUESTRO MENÚ</h1>
+    <main class="container">
+      <h1>Nuestro menú</h1>
       <div class="menu">
-        <img src="../pictures/menu1.png" alt="Sencilla" class="imgMenu" />
-        <img src="../pictures/menu2.png" alt="Doble" class="imgMenu" />
-        <img src="../pictures/menu3.png" alt="Argentina" class="imgMenu" />
-        <img src="../pictures/menu4.png" alt="BBQ" class="imgMenu" />
-        <img src="../pictures/menu5.png" alt="Cheddar" class="imgMenu" />
-        <img src="../pictures/menu6.png" alt="Mexicana" class="imgMenu" />
-        <img src="../pictures/menu7.png" alt="Veggie" class="imgMenu" />
-        <img src="../pictures/menu8.png" alt="Papas" class="imgMenu" />
+        <img src="../pictures/menu1.png" alt="Sencilla" />
+        <img src="../pictures/menu2.png" alt="Doble" />
+        <img src="../pictures/menu3.png" alt="Argentina" />
+        <img src="../pictures/menu4.png" alt="BBQ" />
+        <img src="../pictures/menu5.png" alt="Cheddar" />
+        <img src="../pictures/menu6.png" alt="Mexicana" />
+        <img src="../pictures/menu7.png" alt="Veggie" />
+        <img src="../pictures/menu8.png" alt="Papas" />
       </div>
     </main>
     <footer>
       <div>
-        Sumate! Envianos tu cv a rrhh@eatburger.com y formá parte de nuestro
-        staff
+        Sumate! Envianos tu cv a <span>rrhh@eatburger.com</span> y formá parte
+        de nuestro staff
       </div>
       <div>
-        Seguinos en redes
-        <a href="#" class="redes" target="_blank">
+        <span> Seguinos en redes</span>
+        <a href="https://www.facebook.com/" class="redes" target="_blank">
           <i class="fa-brands fa-square-facebook"></i>
         </a>
-        <a href="#" class="redes" target="_blank">
+        <a href="https://www.instagram.com/" class="redes" target="_blank">
           <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="#" class="redes" target="_blank">
+        <a href="https://web.whatsapp.com/" class="redes" target="_blank">
           <i class="fa-brands fa-whatsapp"></i>
         </a>
       </div>
     </footer>
+
+    <!-- JS BOOTSTRAP -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

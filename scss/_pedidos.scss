@@ -1,0 +1,46 @@
+.pedidos {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  font-weight: 400;
+}
+.contenedores {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "titulo titulo";
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+.contenedor1 {
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(9, 0.7fr);
+}
+.contenedor2 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  row-gap: 0.5rem;
+}
+.pedidos__titulo {
+  grid-area: titulo;
+}
+
+.inputSize {
+  width: 80%;
+}
+
+@media (min-width: 700px) {
+  .pedidos {
+    font-size: 1.5rem;
+  }
+  .contenedor1 {
+    width: 50%;
+    grid-template-rows: repeat(9, 1fr);
+    row-gap: 1rem;
+  }
+  .contenedor2 {
+    width: 50%;
+    row-gap: 1rem;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "preentrega3fogu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "keywords": ["hamburguesas negocio comida papas fritas carne pollo veggie cheddar barbacoa argentina burger comprar delivery"],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
