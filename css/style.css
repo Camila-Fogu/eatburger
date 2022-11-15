@@ -82,8 +82,9 @@ footer .redes {
   }
 }
 .index {
-  height: 80vh;
+  height: 90vh;
   display: grid;
+  justify-content: center;
 }
 .index .imgIndex {
   max-width: 500px;
