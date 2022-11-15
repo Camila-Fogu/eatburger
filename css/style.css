@@ -81,7 +81,12 @@ footer .redes {
     font-size: 1.3rem;
   }
 }
-.imgIndex {
+.index {
+  height: 80vh;
+  display: grid;
+  grid-template-rows: 20px, auto;
+}
+.index .imgIndex {
   max-width: 500px;
   width: 100%;
   margin-bottom: 2rem;

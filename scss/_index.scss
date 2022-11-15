@@ -1,5 +1,10 @@
-.imgIndex {
-  max-width: 500px;
-  width: 100%;
-  margin-bottom: 2rem;
+.index {
+  height: 80vh;
+  display: grid;
+
+  .imgIndex {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
