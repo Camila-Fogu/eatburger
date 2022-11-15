@@ -84,7 +84,6 @@ footer .redes {
 .index {
   height: 80vh;
   display: grid;
-  grid-template-rows: 20px, auto;
 }
 .index .imgIndex {
   max-width: 500px;
