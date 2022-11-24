@@ -79,6 +79,9 @@ footer .redes {
   color: whitesmoke;
   margin: 0rem 0.3rem;
 }
+footer .redes:hover {
+  color: #fcdd05;
+}
 
 @media (min-width: 700px) {
   footer {
