@@ -5,7 +5,9 @@
   "scripts": {
     "compile:sass": "sass --watch scss/style.scss css/style.css"
   },
-  "keywords": ["hamburguesas negocio comida papas fritas carne pollo veggie cheddar barbacoa argentina burger comprar delivery"],
+  "keywords": [
+    "hamburguesas negocio comida papas fritas carne pollo veggie cheddar barbacoa argentina burger comprar delivery"
+  ],
   "author": "",
   "license": "ISC",
   "description": ""
