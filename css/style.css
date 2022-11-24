@@ -30,8 +30,14 @@ header nav li {
   width: 90%;
   margin: 0 auto;
   max-width: 1320px;
+  padding-bottom: 8rem;
 }
 
+@media (min-width: 700px) {
+  .container {
+    padding-bottom: 3rem;
+  }
+}
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -64,7 +70,6 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
-  margin-top: 1rem;
 }
 footer span {
   font-weight: 400;
@@ -189,7 +194,7 @@ footer .redes {
   width: 100%;
 }
 .contacto img {
-  width: 100%;
+  width: 95%;
   box-shadow: 0 5px 20px -10px black;
   margin-top: 1rem;
 }
